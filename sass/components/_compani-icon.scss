@@ -1,5 +1,5 @@
 
-      .compani-icon__link {
+      .compani-icon-list__link {
         width: 170px;
         height: 92px;
         border: 1px solid #AFB1B8;
@@ -15,11 +15,11 @@
           }
           }
         
-        .compani-icon__soc {
+        .compani-icon-list__soc {
         fill: #AFB1B8;
         transition: fill 250ms var(--timing-function);
-        .compani-icon__link:hover & ,
-        .compani-icon__link:focus & {
+        .compani-icon-list__link:hover & ,
+        .compani-icon-list__link:focus & {
           fill: var(--accent-text-color);
         }
         }
@@ -29,7 +29,7 @@
           display: flex;
           justify-content: center;
         } 
-        .compani-icon__item  + .compani-icon__item {
+        .compani-icon-list__item  + .compani-icon-list__item {
           margin-left: 30px;
         
         }
@@ -38,7 +38,7 @@
         //    margin-left: 30px;
         //   }
         // }
-        .compani-icon__link.current {
+        .compani-icon-list__link.current {
           background-color: var(--accent-text-color);
           color: var(--primary-bg-color);
         }
