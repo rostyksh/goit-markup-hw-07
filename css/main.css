@@ -8,7 +8,7 @@
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.about__visuallly-hidden {
+.about-visuallly-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -133,7 +133,7 @@ address {
   fill: #ffffff;
 }
 
-.icon__soc-list {
+.icon-soc-list {
   display: flex;
   justify-content: center;
 }
@@ -142,10 +142,10 @@ address {
   margin-left: 10px;
 }
 
-.about__item {
+.about-list__item {
   width: 270px;
 }
-.about__item::before {
+.about-list__item::before {
   display: block;
   content: "";
   height: 120px;
@@ -157,23 +157,23 @@ address {
   background-color: #f5f4fa;
 }
 
-.about__item:not(:last-child) {
+.about-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.about__item:nth-child(1)::before {
+.about-list__item:nth-child(1)::before {
   background-image: url("../images/antenna 1.png");
 }
 
-.about__item:nth-child(2)::before {
+.about-list__item:nth-child(2)::before {
   background-image: url("../images/clock 1.png");
 }
 
-.about__item:nth-child(3)::before {
+.about-list__item:nth-child(3)::before {
   background-image: url("../images/diagram 1.png");
 }
 
-.about__item:nth-child(4)::before {
+.about-list__item:nth-child(4)::before {
   background-image: url("../images/astronaut 1.png");
 }
 
@@ -191,15 +191,15 @@ address {
   border: 1px solid #2196f3;
 }
 
-.compani-soc__icon {
+.compani-icon__soc {
   fill: #AFB1B8;
   transition: fill 250ms var(--timing-function);
 }
-.compani-icon__link:hover .compani-soc__icon, .compani-icon__link:focus .compani-soc__icon {
+.compani-icon__link:hover .compani-icon__soc, .compani-icon__link:focus .compani-icon__soc {
   fill: var(--accent-text-color);
 }
 
-.compani-icon__list {
+.compani-icon-list {
   display: flex;
   justify-content: center;
 }
@@ -436,7 +436,7 @@ address {
   background-color: #c4c4c4;
 }
 
-.about__list {
+.about-list {
   display: flex;
 }
 
@@ -445,7 +445,7 @@ address {
   padding-bottom: 94px;
 }
 
-.about__title {
+.about-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -455,7 +455,7 @@ address {
   margin-bottom: 10px;
 }
 
-.about__text {
+.about-list__text {
   font-weight: 400;
   line-height: 1.71;
   font-size: 14px;
@@ -466,7 +466,7 @@ address {
   padding-top: 0px;
 }
 
-.job-section {
+.job {
   padding-top: 94px;
   padding-bottom: 94px;
 }

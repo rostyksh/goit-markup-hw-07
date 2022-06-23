@@ -1,4 +1,5 @@
-.about__item {
+
+  .about-list__item {
     width: 270px;
     &::before {
       display: block;
@@ -12,19 +13,19 @@
       background-color: #f5f4fa;
     }
   }
-  .about__item:not(:last-child) {
+  .about-list__item:not(:last-child) {
     margin-right: 30px;
   }
  
-  .about__item:nth-child(1)::before {
+  .about-list__item:nth-child(1)::before {
     background-image: url("../images/antenna\ 1.png");
   }
-  .about__item:nth-child(2)::before {
+  .about-list__item:nth-child(2)::before {
     background-image: url("../images/clock\ 1.png");
   }
-  .about__item:nth-child(3)::before {
+  .about-list__item:nth-child(3)::before {
     background-image: url("../images/diagram\ 1.png");
   }
-  .about__item:nth-child(4)::before {
+  .about-list__item:nth-child(4)::before {
     background-image: url("../images/astronaut\ 1.png");
   }
